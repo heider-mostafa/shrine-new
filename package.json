@@ -27,6 +27,6 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "scripts": {
-    "dev": "next dev"
+  "build": "react-scripts build"  // or the appropriate build command
   }
 }
