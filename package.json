@@ -1,13 +1,12 @@
 {
-  "devDependencies": {
-    "@types/next": "^9.0.0",
-    "@types/node": "22.10.1",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.15",
-    "typescript": "5.7.2"
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.1",
@@ -21,15 +20,23 @@
     "class-variance-authority": "^0.7.1",
     "framer-motion": "^11.12.0",
     "lucide-react": "^0.462.0",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-intersection-observer": "^9.13.1",
     "shadcn-ui": "^0.2.3",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
   },
-  "scripts": {
-    "build": "tailwindcss -i ./src/globals.css -o ./dist/output.css --minify && next build",
-    "dev": "next dev",
-    "start": "next start"
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "5.3.3"
   }
 }
-
