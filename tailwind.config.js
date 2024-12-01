@@ -2,10 +2,11 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
+    './@/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './lib/**/*.{ts,tsx}',
+    './.next/**/*.{ts,tsx}',
   ],
   theme: {
     container: {
@@ -74,4 +75,3 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
-
