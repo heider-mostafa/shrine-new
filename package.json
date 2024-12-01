@@ -27,8 +27,9 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify && next build",
+    "build": "tailwindcss -i ./src/globals.css -o ./dist/output.css --minify && next build",
     "dev": "next dev",
     "start": "next start"
   }
 }
+
